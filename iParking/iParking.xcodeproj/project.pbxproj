@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7C60C28C2172B4CE009C7D00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60C28B2172B4CE009C7D00 /* AppDelegate.swift */; };
 		7C60C28E2172B4CE009C7D00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60C28D2172B4CE009C7D00 /* ViewController.swift */; };
-		7C60C2912172B4CE009C7D00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C60C28F2172B4CE009C7D00 /* Main.storyboard */; };
 		7C60C2942172B4CE009C7D00 /* iParking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C60C2922172B4CE009C7D00 /* iParking.xcdatamodeld */; };
 		7C60C2962172B4D0009C7D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C60C2952172B4D0009C7D00 /* Assets.xcassets */; };
 		7C60C2992172B4D0009C7D00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C60C2972172B4D0009C7D00 /* LaunchScreen.storyboard */; };
@@ -36,13 +35,13 @@
 		7C60C4732172B6B1009C7D00 /* CSMImageDownloaded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60C45F2172B6B0009C7D00 /* CSMImageDownloaded.swift */; };
 		7C60C4742172B6B1009C7D00 /* CSMDateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60C4602172B6B0009C7D00 /* CSMDateManager.swift */; };
 		7C60C4752172B6B1009C7D00 /* CSMTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60C4612172B6B1009C7D00 /* CSMTextView.swift */; };
+		CD95BFEE2172B8EB000A820E /* IPMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD95BFED2172B8EB000A820E /* IPMain.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7C60C2882172B4CE009C7D00 /* iParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C60C28B2172B4CE009C7D00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C60C28D2172B4CE009C7D00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7C60C2902172B4CE009C7D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C60C2932172B4CE009C7D00 /* iParking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iParking.xcdatamodel; sourceTree = "<group>"; };
 		7C60C2952172B4D0009C7D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C60C2982172B4D0009C7D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,6 +69,7 @@
 		7C60C45F2172B6B0009C7D00 /* CSMImageDownloaded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMImageDownloaded.swift; sourceTree = "<group>"; };
 		7C60C4602172B6B0009C7D00 /* CSMDateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMDateManager.swift; sourceTree = "<group>"; };
 		7C60C4612172B6B1009C7D00 /* CSMTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMTextView.swift; sourceTree = "<group>"; };
+		CD95BFED2172B8EB000A820E /* IPMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IPMain.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,7 @@
 		7C60C2A12172B55E009C7D00 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7C60C28F2172B4CE009C7D00 /* Main.storyboard */,
+				CD95BFED2172B8EB000A820E /* IPMain.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -267,8 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C60C2992172B4D0009C7D00 /* LaunchScreen.storyboard in Resources */,
+				CD95BFEE2172B8EB000A820E /* IPMain.storyboard in Resources */,
 				7C60C2962172B4D0009C7D00 /* Assets.xcassets in Resources */,
-				7C60C2912172B4CE009C7D00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,14 +311,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7C60C28F2172B4CE009C7D00 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C60C2902172B4CE009C7D00 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7C60C2972172B4D0009C7D00 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
