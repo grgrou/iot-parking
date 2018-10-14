@@ -8,6 +8,7 @@
 
 import UIKit
 
-class IPUrlConstants: NSObject {
-
+struct URLIParkingWS {
+    
+    static let baseURL      = "http://nanamatch.ml/iparking/"
 }

@@ -8,6 +8,7 @@
 
 import UIKit
 
-class IPConstants: NSObject {
-
+struct Message {
+    
+    static let alertTitle   = "iParking"
 }
