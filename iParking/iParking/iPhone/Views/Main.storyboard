@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DPP-uw-9pg">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="0gB-Uw-0eO">
+            <objects>
+                <viewController id="DPP-uw-9pg" customClass="ViewController" customModule="iParking" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9PU-nl-4sc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I8L-xQ-vFj" customClass="CSMLinearGradientView" customModule="iParking" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="553"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="startColor">
+                                        <color key="value" red="0.38412898778915405" green="0.65957164764404297" blue="0.97364538908004761" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="endColor">
+                                        <color key="value" red="0.50057899951934814" green="0.97433477640151978" blue="0.99264973402023315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="startGradiantCenter">
+                                        <point key="value" x="1" y="0.40000000000000002"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="endGradiantCenter">
+                                        <point key="value" x="-0.90000000000000002" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a78-Uy-BV1" customClass="CSMShadowView" customModule="iParking" customModuleProvider="target">
+                                <rect key="frame" x="16" y="498" width="345" height="260"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Dni" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="igY-Dz-3I3" customClass="CSMTextField" customModule="iParking" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="35" width="329" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="274" id="kUm-ys-DPH"/>
+                                            <constraint firstAttribute="height" constant="30" id="sMC-iC-fzP"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="bottomMargin">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="topMargin">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="leftMargin">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="rightMargin">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="persona"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Placa" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DxD-Hh-Evi" customClass="CSMTextField" customModule="iParking" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="86" width="329" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="czA-fL-ely"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="placa"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Número único de póliza" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ezA-Hy-g19" customClass="CSMTextField" customModule="iParking" customModuleProvider="target">
+                                        <rect key="frame" x="8" y="137" width="329" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="apa-lF-637"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                <color key="value" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="polNumero"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTh-Gf-EuJ" customClass="CSMButton" customModule="iParking" customModuleProvider="target">
+                                        <rect key="frame" x="95" y="198" width="155" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="GJ2-wH-yVT"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                                        <state key="normal" title="REGISTRAR">
+                                            <color key="titleColor" red="0.38412898779999999" green="0.65957164759999998" blue="0.97364538909999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.38412898779999999" green="0.65957164759999998" blue="0.97364538909999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="15"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="igY-Dz-3I3" firstAttribute="centerX" secondItem="DxD-Hh-Evi" secondAttribute="centerX" id="29E-s6-win"/>
+                                    <constraint firstItem="DxD-Hh-Evi" firstAttribute="centerX" secondItem="ezA-Hy-g19" secondAttribute="centerX" id="7tM-B0-Nmw"/>
+                                    <constraint firstItem="lTh-Gf-EuJ" firstAttribute="leading" secondItem="a78-Uy-BV1" secondAttribute="leading" constant="95" id="DTV-uH-Kew"/>
+                                    <constraint firstAttribute="bottom" secondItem="lTh-Gf-EuJ" secondAttribute="bottom" constant="32" id="Ejb-ba-d0Z"/>
+                                    <constraint firstItem="igY-Dz-3I3" firstAttribute="leading" secondItem="a78-Uy-BV1" secondAttribute="leading" constant="8" id="HT7-LH-rrF"/>
+                                    <constraint firstItem="DxD-Hh-Evi" firstAttribute="top" secondItem="igY-Dz-3I3" secondAttribute="bottom" constant="21" id="KCf-fD-uIo"/>
+                                    <constraint firstItem="ezA-Hy-g19" firstAttribute="width" secondItem="DxD-Hh-Evi" secondAttribute="width" id="M8n-Ua-tiJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="lTh-Gf-EuJ" secondAttribute="trailing" constant="95" id="QUp-GF-U0m"/>
+                                    <constraint firstItem="ezA-Hy-g19" firstAttribute="centerX" secondItem="lTh-Gf-EuJ" secondAttribute="centerX" id="R6l-Iv-cBL"/>
+                                    <constraint firstAttribute="height" constant="260" id="UDv-4x-eXp"/>
+                                    <constraint firstItem="igY-Dz-3I3" firstAttribute="top" secondItem="a78-Uy-BV1" secondAttribute="top" constant="35" id="Vky-W7-iyj"/>
+                                    <constraint firstItem="ezA-Hy-g19" firstAttribute="top" secondItem="DxD-Hh-Evi" secondAttribute="bottom" constant="21" id="Z19-60-OU4"/>
+                                    <constraint firstAttribute="trailing" secondItem="igY-Dz-3I3" secondAttribute="trailing" constant="8" id="ZBf-Wb-b5V"/>
+                                    <constraint firstItem="lTh-Gf-EuJ" firstAttribute="top" secondItem="ezA-Hy-g19" secondAttribute="bottom" constant="31" id="jFp-4W-u3k"/>
+                                    <constraint firstItem="DxD-Hh-Evi" firstAttribute="width" secondItem="igY-Dz-3I3" secondAttribute="width" id="rpX-cm-D6t"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" red="0.57414853570000002" green="0.57416242360000003" blue="0.57415497299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Rn9-0L-Rw4" firstAttribute="bottom" secondItem="a78-Uy-BV1" secondAttribute="bottom" constant="20" id="Fvt-ru-3uK"/>
+                            <constraint firstItem="Rn9-0L-Rw4" firstAttribute="bottom" secondItem="I8L-xQ-vFj" secondAttribute="bottom" constant="225" id="Rra-e1-hdT"/>
+                            <constraint firstItem="a78-Uy-BV1" firstAttribute="leading" secondItem="Rn9-0L-Rw4" secondAttribute="leading" constant="16" id="clo-My-erN"/>
+                            <constraint firstItem="I8L-xQ-vFj" firstAttribute="leading" secondItem="Rn9-0L-Rw4" secondAttribute="leading" id="lsB-Em-Rqn"/>
+                            <constraint firstItem="Rn9-0L-Rw4" firstAttribute="trailing" secondItem="a78-Uy-BV1" secondAttribute="trailing" constant="14" id="q4u-e4-irK"/>
+                            <constraint firstItem="I8L-xQ-vFj" firstAttribute="top" secondItem="9PU-nl-4sc" secondAttribute="top" id="raJ-0l-Uty"/>
+                            <constraint firstItem="I8L-xQ-vFj" firstAttribute="trailing" secondItem="Rn9-0L-Rw4" secondAttribute="trailing" id="xsf-oU-wSK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Rn9-0L-Rw4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t80-45-d1t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="zhe-PU-y3f"/>
+            </objects>
+            <point key="canvasLocation" x="-120" y="-46.478873239436624"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="persona" width="300" height="300"/>
+        <image name="placa" width="409.60000610351562" height="409.60000610351562"/>
+        <image name="polNumero" width="456" height="456"/>
+    </resources>
+</document>

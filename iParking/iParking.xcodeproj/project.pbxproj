@@ -35,7 +35,7 @@
 		7C60C4732172B6B1009C7D00 /* CSMImageDownloaded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60C45F2172B6B0009C7D00 /* CSMImageDownloaded.swift */; };
 		7C60C4742172B6B1009C7D00 /* CSMDateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60C4602172B6B0009C7D00 /* CSMDateManager.swift */; };
 		7C60C4752172B6B1009C7D00 /* CSMTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C60C4612172B6B1009C7D00 /* CSMTextView.swift */; };
-		CD95BFEE2172B8EB000A820E /* IPMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD95BFED2172B8EB000A820E /* IPMain.storyboard */; };
+		CD95BFEE2172B8EB000A820E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD95BFED2172B8EB000A820E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,7 +69,7 @@
 		7C60C45F2172B6B0009C7D00 /* CSMImageDownloaded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMImageDownloaded.swift; sourceTree = "<group>"; };
 		7C60C4602172B6B0009C7D00 /* CSMDateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMDateManager.swift; sourceTree = "<group>"; };
 		7C60C4612172B6B1009C7D00 /* CSMTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSMTextView.swift; sourceTree = "<group>"; };
-		CD95BFED2172B8EB000A820E /* IPMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = IPMain.storyboard; sourceTree = "<group>"; };
+		CD95BFED2172B8EB000A820E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +128,7 @@
 		7C60C2A12172B55E009C7D00 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CD95BFED2172B8EB000A820E /* IPMain.storyboard */,
+				CD95BFED2172B8EB000A820E /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -267,7 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C60C2992172B4D0009C7D00 /* LaunchScreen.storyboard in Resources */,
-				CD95BFEE2172B8EB000A820E /* IPMain.storyboard in Resources */,
+				CD95BFEE2172B8EB000A820E /* Main.storyboard in Resources */,
 				7C60C2962172B4D0009C7D00 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
