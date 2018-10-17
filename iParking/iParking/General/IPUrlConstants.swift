@@ -10,5 +10,8 @@ import UIKit
 
 struct URLIParkingWS {
     
-    static let baseURL      = "http://nanamatch.ml/iparking/"
+    static let baseURL      = "http://nanamatch.ml/iparking"
+    
+    static let getDni       = baseURL + "/getdni"
+    static let login        = baseURL + "/login"
 }

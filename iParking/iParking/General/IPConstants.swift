@@ -12,3 +12,12 @@ struct Message {
     
     static let alertTitle   = "iParking"
 }
+
+struct Segue {
+    
+}
+
+enum Account {
+    case user
+    case admin
+}
