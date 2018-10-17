@@ -27,11 +27,11 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iParking" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X8M-DJ-ga8">
-                                        <rect key="frame" x="0.0" y="50" width="320" height="31"/>
+                                        <rect key="frame" x="0.0" y="65" width="320" height="31"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="31" id="7gs-c6-7WN"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="25"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -41,7 +41,7 @@
                                     <constraint firstItem="nzc-E9-fpS" firstAttribute="top" secondItem="I8L-xQ-vFj" secondAttribute="top" id="2xd-bq-CDF"/>
                                     <constraint firstAttribute="trailing" secondItem="nzc-E9-fpS" secondAttribute="trailing" id="3I8-aX-S9G"/>
                                     <constraint firstAttribute="trailing" secondItem="X8M-DJ-ga8" secondAttribute="trailing" id="E87-f7-vid"/>
-                                    <constraint firstItem="X8M-DJ-ga8" firstAttribute="top" secondItem="nzc-E9-fpS" secondAttribute="bottom" constant="30" id="dMO-z3-FtY"/>
+                                    <constraint firstItem="X8M-DJ-ga8" firstAttribute="top" secondItem="nzc-E9-fpS" secondAttribute="bottom" constant="45" id="dMO-z3-FtY"/>
                                     <constraint firstItem="nzc-E9-fpS" firstAttribute="leading" secondItem="I8L-xQ-vFj" secondAttribute="leading" id="g5I-tu-Phu"/>
                                     <constraint firstItem="X8M-DJ-ga8" firstAttribute="leading" secondItem="I8L-xQ-vFj" secondAttribute="leading" id="jBK-MM-AEA"/>
                                 </constraints>
@@ -80,7 +80,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tO7-I1-Ke6">
+                                    <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tO7-I1-Ke6">
                                         <rect key="frame" x="30" y="66" width="230" height="0.5"/>
                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -104,7 +104,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dhK-We-X0d">
+                                    <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dhK-We-X0d">
                                         <rect key="frame" x="30" y="117" width="230" height="0.5"/>
                                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -222,6 +222,7 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="viewBox" destination="a78-Uy-BV1" id="HsR-ZN-dvf"/>
                         <outlet property="viewVerticalConstraint" destination="Gu6-Jm-stn" id="vKm-tJ-uVB"/>
                     </connections>
                 </viewController>
