@@ -8,3 +8,7 @@
 
 import UIKit
 
+typealias Success           = ()-> Void
+typealias ErrorMessage      = (_ message: String)-> Void
+typealias ArrayParkings     = (_ arrayParking: [IPParkingBE])-> Void
+typealias DniInformation    = (_ name: String, _ lastName: String)-> Void

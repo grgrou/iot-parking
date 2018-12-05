@@ -10,14 +10,19 @@ import UIKit
 
 struct Message {
     
-    static let alertTitle   = "iParking"
+    static let alertTitle           = "iParking"
+    static let alertAcceptButton    = "Aceptar"
+    static let genericErrorMessage  = "Ocurrió un error inesperado. Por favor, inténtalo más tarde."
+    static let emptyArrayParkings   = "No se han encontrado parkings ocupados."
+    static let successfulRegister   = "Registro completado. En 2 horas deberá sacar su auto."
+}
+
+struct Colors {
+    
+    static let transparentBlack = UIColor.init(red: 0, green: 0, blue: 0, alpha: 0.35)
 }
 
 struct Segue {
     
-}
-
-enum Account {
-    case user
-    case admin
+    static let IPParkingSelectorViewController = "IPParkingSelectorViewController"
 }
